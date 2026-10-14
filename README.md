@@ -1,141 +1,80 @@
-# 🚀 Welcome to Z.ai Code Scaffold
+# ðŸ“Š Gerencial Online â€” Sistema de GestÃ£o Comercial e Operacional
 
-A modern, production-ready web application scaffold powered by cutting-edge technologies, designed to accelerate your development with [Z.ai](https://chat.z.ai)'s AI-powered coding assistance.
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=nextdotjs)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748?style=flat-square&logo=prisma)](https://www.prisma.io/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 
-## ✨ Technology Stack
-
-This scaffold provides a robust foundation built with:
-
-### 🎯 Core Framework
-- **⚡ Next.js 15** - The React framework for production with App Router
-- **📘 TypeScript 5** - Type-safe JavaScript for better developer experience
-- **🎨 Tailwind CSS 4** - Utility-first CSS framework for rapid UI development
-
-### 🧩 UI Components & Styling
-- **🧩 shadcn/ui** - High-quality, accessible components built on Radix UI
-- **🎯 Lucide React** - Beautiful & consistent icon library
-- **🌈 Framer Motion** - Production-ready motion library for React
-- **🎨 Next Themes** - Perfect dark mode in 2 lines of code
-
-### 📋 Forms & Validation
-- **🎣 React Hook Form** - Performant forms with easy validation
-- **✅ Zod** - TypeScript-first schema validation
-
-### 🔄 State Management & Data Fetching
-- **🐻 Zustand** - Simple, scalable state management
-- **🔄 TanStack Query** - Powerful data synchronization for React
-- **🌐 Axios** - Promise-based HTTP client
-
-### 🗄️ Database & Backend
-- **🗄️ Prisma** - Next-generation Node.js and TypeScript ORM
-- **🔐 NextAuth.js** - Complete open-source authentication solution
-
-### 🎨 Advanced UI Features
-- **📊 TanStack Table** - Headless UI for building tables and datagrids
-- **🖱️ DND Kit** - Modern drag and drop toolkit for React
-- **📊 Recharts** - Redefined chart library built with React and D3
-- **🖼️ Sharp** - High performance image processing
-
-### 🌍 Internationalization & Utilities
-- **🌍 Next Intl** - Internationalization library for Next.js
-- **📅 Date-fns** - Modern JavaScript date utility library
-- **🪝 ReactUse** - Collection of essential React hooks for modern development
-
-## 🎯 Why This Scaffold?
-
-- **🏎️ Fast Development** - Pre-configured tooling and best practices
-- **🎨 Beautiful UI** - Complete shadcn/ui component library with advanced interactions
-- **🔒 Type Safety** - Full TypeScript configuration with Zod validation
-- **📱 Responsive** - Mobile-first design principles with smooth animations
-- **🗄️ Database Ready** - Prisma ORM configured for rapid backend development
-- **🔐 Auth Included** - NextAuth.js for secure authentication flows
-- **📊 Data Visualization** - Charts, tables, and drag-and-drop functionality
-- **🌍 i18n Ready** - Multi-language support with Next Intl
-- **🚀 Production Ready** - Optimized build and deployment settings
-- **🤖 AI-Friendly** - Structured codebase perfect for AI assistance
-
-## 🚀 Quick Start
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) to see your application running.
-
-## 🤖 Powered by Z.ai
-
-This scaffold is optimized for use with [Z.ai](https://chat.z.ai) - your AI assistant for:
-
-- **💻 Code Generation** - Generate components, pages, and features instantly
-- **🎨 UI Development** - Create beautiful interfaces with AI assistance  
-- **🔧 Bug Fixing** - Identify and resolve issues with intelligent suggestions
-- **📝 Documentation** - Auto-generate comprehensive documentation
-- **🚀 Optimization** - Performance improvements and best practices
-
-Ready to build something amazing? Start chatting with Z.ai at [chat.z.ai](https://chat.z.ai) and experience the future of AI-powered development!
-
-## 📁 Project Structure
-
-```
-src/
-├── app/                 # Next.js App Router pages
-├── components/          # Reusable React components
-│   └── ui/             # shadcn/ui components
-├── hooks/              # Custom React hooks
-└── lib/                # Utility functions and configurations
-```
-
-## 🎨 Available Features & Components
-
-This scaffold includes a comprehensive set of modern web development tools:
-
-### 🧩 UI Components (shadcn/ui)
-- **Layout**: Card, Separator, Aspect Ratio, Resizable Panels
-- **Forms**: Input, Textarea, Select, Checkbox, Radio Group, Switch
-- **Feedback**: Alert, Toast (Sonner), Progress, Skeleton
-- **Navigation**: Breadcrumb, Menubar, Navigation Menu, Pagination
-- **Overlay**: Dialog, Sheet, Popover, Tooltip, Hover Card
-- **Data Display**: Badge, Avatar, Calendar
-
-### 📊 Advanced Data Features
-- **Tables**: Powerful data tables with sorting, filtering, pagination (TanStack Table)
-- **Charts**: Beautiful visualizations with Recharts
-- **Forms**: Type-safe forms with React Hook Form + Zod validation
-
-### 🎨 Interactive Features
-- **Animations**: Smooth micro-interactions with Framer Motion
-- **Drag & Drop**: Modern drag-and-drop functionality with DND Kit
-- **Theme Switching**: Built-in dark/light mode support
-
-### 🔐 Backend Integration
-- **Authentication**: Ready-to-use auth flows with NextAuth.js
-- **Database**: Type-safe database operations with Prisma
-- **API Client**: HTTP requests with Axios + TanStack Query
-- **State Management**: Simple and scalable with Zustand
-
-### 🌍 Production Features
-- **Internationalization**: Multi-language support with Next Intl
-- **Image Optimization**: Automatic image processing with Sharp
-- **Type Safety**: End-to-end TypeScript with Zod validation
-- **Essential Hooks**: 100+ useful React hooks with ReactUse for common patterns
-
-## 🤝 Get Started with Z.ai
-
-1. **Clone this scaffold** to jumpstart your project
-2. **Visit [chat.z.ai](https://chat.z.ai)** to access your AI coding assistant
-3. **Start building** with intelligent code generation and assistance
-4. **Deploy with confidence** using the production-ready setup
+> Sistema web moderno e escalÃ¡vel desenvolvido para otimizar processos de varejo e atacado, abrangendo controle dinÃ¢mico de compras, cÃ¡lculos de rentabilidade, monitoramento de validade e gestÃ£o de perdas.
 
 ---
 
-Built with ❤️ for the developer community. Supercharged by [Z.ai](https://chat.z.ai) 🚀
+## ðŸš€ Principais MÃ³dulos
+
+### ðŸŽ 1. Dashboard de Hortifruti
+Planejamento e gestÃ£o de pedidos ajustados Ã  frequÃªncia de entrega e giro de mercadorias perecÃ­veis:
+- **CalendÃ¡rio Inteligente**: Escala fixa de entregas (Segunda, Quarta e SÃ¡bado) com cÃ¡lculo automÃ¡tico dos dias atÃ© o prÃ³ximo recebimento.
+- **SugestÃ£o de Compra AutomÃ¡tica**: Algoritmo que projeta a demanda diÃ¡ria, saldo em estoque e lead time do fornecedor para evitar rupturas e excessos.
+- **Controle de Perdas**: VisÃ£o analÃ­tica de quebras operacionais e ajustes de saldo por loja.
+
+### ðŸ“ˆ 2. AnÃ¡lise AvanÃ§ada de Rentabilidade
+MÃ³dulo construÃ­do para auditar margens comerciais com precisÃ£o:
+- **FÃ³rmula de Rentabilidade Real**:
+  ```text
+  (((Custo_Medio / Preco_Siderio) * 100 - 100) * -1 - 6.35) - (((Custo_Medio / Preco_Atual) * 100 - 100) * -1 - 6.35 - Rent_Atual)
+  ```
+- **Comparativo de CenÃ¡rios**: SimulaÃ§Ã£o de impacto na margem lÃ­quida entre preÃ§o atual, preÃ§o concorrente e preÃ§o sugerido.
+- **RelatÃ³rios Gerenciais**: ExportaÃ§Ã£o e visualizaÃ§Ã£o rÃ¡pida para tomada de decisÃ£o em compras e pricing.
+
+### â±ï¸ 3. Controle e PrevenÃ§Ã£o de Validade
+- **Alertas Antecipados**: Triagem de lotes com risco de vencimento por criticidade (vermelho, amarelo, verde).
+- **AÃ§Ãµes Promocionais**: IdentificaÃ§Ã£o imediata de produtos para queima de estoque ou rebaixa de preÃ§o antes da perda total.
+
+---
+
+## ðŸ› ï¸ Stack TecnolÃ³gica
+
+- **Front-end / Framework:** Next.js (App Router), React, Tailwind CSS, Lucide Icons, Shadcn UI
+- **Back-end:** Next.js Server Components, API Routes, Node.js
+- **Linguagem:** TypeScript
+- **ORM & Banco de Dados:** Prisma ORM, SQLite / PostgreSQL
+- **IntegraÃ§Ã£o:** Scripts de compatibilidade com Google Apps Script
+
+---
+
+## ðŸ’» Como Executar Localmente
+
+### PrÃ©-requisitos
+- Node.js 18+ instalado
+- npm ou yarn
+
+### InstalaÃ§Ã£o
+
+```bash
+# 1. Clone o repositÃ³rio
+git clone https://github.com/saaesilva/Gerencial.git
+
+# 2. Acesse a pasta do projeto
+cd Gerencial
+
+# 3. Instale as dependÃªncias
+npm install
+
+# 4. Configure as variÃ¡veis de ambiente
+cp .env.example .env
+
+# 5. Execute as migraÃ§Ãµes do banco
+npx prisma db push
+
+# 6. Inicie o servidor de desenvolvimento
+npm run dev
+```
+
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para utilizar o sistema.
+
+---
+
+## ðŸ“„ LicenÃ§a e Autoria
+
+Desenvolvido por **[Samuel Silva](https://github.com/saaesilva)**.  
+Todos os direitos reservados.
